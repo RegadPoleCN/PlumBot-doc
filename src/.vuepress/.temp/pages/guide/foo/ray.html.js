@@ -1,0 +1,3 @@
+import comp from "C:/Users/luobi/Documents/PlumBot-doc/src/.vuepress/.temp/pages/guide/foo/ray.html.vue"
+const data = JSON.parse("{\"path\":\"/guide/foo/ray.html\",\"title\":\"Ray\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"Ray\",\"icon\":\"circle-info\"},\"headers\":[],\"git\":{\"createdTime\":1714480824000,\"updatedTime\":1714480824000,\"contributors\":[{\"name\":\"ZoruaFox\",\"email\":\"96456728+ZoruaFox@users.noreply.github.com\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.03,\"words\":8},\"filePathRelative\":\"guide/foo/ray.md\",\"localizedDate\":\"2024年4月30日\",\"excerpt\":\"<p>Feature details here.</p>\\n\"}")
+export { comp, data }

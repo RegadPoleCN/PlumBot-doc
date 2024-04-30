@@ -110,12 +110,3 @@ The theme contains some useful components. Here are some examples:
 
 - A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
 
-- A card:
-
-  ```component VPCard
-  title: Mr.Hope
-  desc: Where there is light, there is hope
-  logo: https://mister-hope.com/logo.svg
-  link: https://mister-hope.com
-  background: rgba(253, 230, 138, 0.15)
-  ```

@@ -5,25 +5,24 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress-vite build docs-hope-theme",
-    "docs:clean-dev": "vuepress-vite dev docs-hope-theme --clean-cache",
-    "docs:dev": "vuepress-vite dev docs-hope-theme",
+    "docs:build": "vuepress build src",
+    "docs:clean-dev": "vuepress dev src --clean-cache",
+    "docs:dev": "vuepress dev src",
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.2",
-    "@vuepress/client": "2.0.0-rc.2",
-    "@vuepress/plugin-back-to-top": "2.0.0-rc.3",
-    "@vuepress/plugin-copy-code": "2.0.0-rc.6",
-    "@vuepress/plugin-medium-zoom": "2.0.0-rc.3",
-    "@vuepress/plugin-nprogress": "2.0.0-rc.3",
-    "@vuepress/plugin-shiki": "2.0.0-rc.3",
-    "@vuepress/theme-default": "2.0.0-rc.2",
+    "@vuepress/bundler-vite": "2.0.0-rc.9",
+    "@vuepress/client": "2.0.0-rc.9",
+    "@vuepress/plugin-back-to-top": "2.0.0-rc.26",
+    "@vuepress/plugin-copy-code": "2.0.0-rc.26",
+    "@vuepress/plugin-medium-zoom": "2.0.0-rc.26",
+    "@vuepress/plugin-nprogress": "2.0.0-rc.26",
+    "@vuepress/plugin-shiki": "2.0.0-rc.25",
+    "@vuepress/theme-default": "2.0.0-rc.26",
     "vue": "^3.4.26",
-    "vuepress": "2.0.0-rc.2",
-    "vuepress-plugin-md-enhance": "2.0.0-rc.16",
-    "vuepress-plugin-reading-time2": "2.0.0-rc.16",
-    "vuepress-plugin-search-pro": "2.0.0-rc.16",
-    "vuepress-theme-hope": "2.0.0-rc.16"
+    "vuepress": "2.0.0-rc.9",
+    "vuepress-plugin-md-enhance": "2.0.0-rc.38",
+    "vuepress-plugin-search-pro": "2.0.0-rc.38",
+    "vuepress-theme-hope": "2.0.0-rc.38"
   }
 }
